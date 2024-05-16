@@ -43,4 +43,6 @@ app.get("/wins", (req, res, next) =>{
             }
         ]
     );
-})
+});
+
+module.exports = app;
