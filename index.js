@@ -8,7 +8,7 @@ app.listen(3000, () => {
     console.log("Server running an port 3000");
 })
 
-app.get("/wins", (req, res, next) =>{
+app.get("/", (req, res, next) =>{
     res.json(
         [
             {
